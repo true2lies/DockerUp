@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+.details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+.details p {
+    margin: 10px 0;
+}

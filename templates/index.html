@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to my Website!</h1>
+    <div class="details">
+        <p>Name: {{ name }}</p>
+        <p>Message: {{ msg }}</p>
+    </div>
+</body>
+</html>
